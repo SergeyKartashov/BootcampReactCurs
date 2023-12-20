@@ -19,5 +19,5 @@ export default defineConfig({
       '@babel/preset-react'
     ],
   },
-  base: './BootcampReactCurs/'
+  base: '/BootcampReactCurs/'
 })
