@@ -1,0 +1,88 @@
+.TableContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    margin: 24px 24px 24px 0;
+}
+
+.table {
+    display: flex;
+    color: #041526;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.status_active {
+    border: none;
+    outline: none;
+    padding: 5px 12px 5px 12px;
+    background-color: #4ED09A;
+    border-radius: 12px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.status_notactive {
+    border: none;
+    outline: none;
+    padding: 5px 12px 5px 12px;
+    background-color: #FA506F;
+    border-radius: 12px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.column_delimiter {
+    width: 1px;
+    opacity: 0.08;
+    background: #041526;
+    margin-left: -5%;
+}
+
+.header_title {
+    background: #F6F8FA;
+    color: #041526;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.checkbox_cell {
+    background: white;
+    padding-left: 20px;
+}
+
+.checkbox {
+    display: block;
+    content: "";
+    color: white;
+    background: white;
+    margin: 10px 20px 10px 0;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.cell {
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    margin-right: 120px;
+}

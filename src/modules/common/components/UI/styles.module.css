@@ -1,0 +1,41 @@
+.Field {
+    display: flex;
+    height: 32px;
+    border-radius: 16px;
+    text-align: left;
+    background-color: #F6F8FA;
+}
+
+.Field::placeholder {
+    padding-left: 10px;
+}
+
+.Label {
+    padding: 0;
+}
+
+.List {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.Item {
+    display: flex;
+    text-align: left;
+    color: #041526;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    padding-bottom: 12px;
+}
+
+.visible {
+    display: block;
+}
+
+.not_visible {
+    display: none;
+}

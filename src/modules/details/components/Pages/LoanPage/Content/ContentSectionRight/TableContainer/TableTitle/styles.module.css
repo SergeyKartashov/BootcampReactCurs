@@ -1,0 +1,30 @@
+.TableTitleContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TableTitle {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+}
+
+.TableTitleText {
+    color: #041526;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*min-width: 580px;*/
+    margin-top: 24px;
+}
+
+.Tabs {
+    display: flex;
+    justify-content: end;
+    color: black;
+    margin-top: 24px;
+}

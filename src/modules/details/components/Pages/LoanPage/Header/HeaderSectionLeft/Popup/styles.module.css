@@ -1,0 +1,194 @@
+.modal {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 78vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal__content {
+    position: fixed;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white;
+    height: 93%;
+    /*width: 33%;*/
+    min-width: 420px;
+    margin-top: 15px;
+    right: 0;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    color: #000;
+}
+
+.modal__content.active {
+    transform: scale(1);
+}
+
+.PopupContent {
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.PopupContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.PopupHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.PopupTitle {
+    display: flex;
+    color: #424952;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.PopupLabel {
+    color: #868B95;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 3px;
+}
+
+.PopupClose {
+    display: block;
+    right: 0;
+    margin-right: 24px;
+}
+
+.PopupButtons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 24px;
+}
+
+.PopupButtonWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.PopupButtonCancel {
+    color: #424952;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: rgba(17, 115, 218, 0.05);
+    margin-bottom: 24px;
+}
+
+.PopupButtonOK {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #1173DA;
+    margin-bottom: 24px;
+}
+
+.PopupClose {
+    position: fixed;
+    width: 14px;
+    height: 14px;
+}
+
+.PopupForm {
+    position: fixed;
+}
+
+.PopupFormContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 0;
+}
+
+.PopupInputLight {
+    display: flex;
+    width: 100%;
+    min-width: 378px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #E3E8EC;
+    background: #FFF;
+    margin-bottom: 8px;
+    color: #101828;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.PopupInputGrey {
+    display: flex;
+    width: 100%;
+    min-width: 372px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #E3E8EC;
+    background: #E3E8EC;
+    margin-bottom: 8px;
+    color: #101828;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.PopupViewContainer {
+    display: flex;
+}
+
+.PopupView {
+    display: flex;
+    margin-top: -7px;
+    margin-left: -23px;
+}
+
+.PopupPict {
+    display: flex;
+    margin-top: -7px;
+    margin-left: -18px;
+}

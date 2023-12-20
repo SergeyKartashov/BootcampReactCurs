@@ -1,0 +1,105 @@
+.PaginatorWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.PaginatorAndCountContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PgFirst {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.PgLast {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.PgPrev {
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.PgNext {
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.PgRange {
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.PaginatorPagesWrapper {
+    display: flex;
+}
+
+.PaginatorCurrent {
+    display: flex;
+    color: white;
+    cursor: pointer;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 8px;
+    background: #1173DA;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.Paginator {
+    display: flex;
+    color: grey;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.not_visible {
+    display: none;
+}
+
+.constantDropdown {
+    display: flex;
+    width: 72px;
+    height: 32px;
+    border: 1px solid rgba(4, 21, 38, 0.10);
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    align-self: stretch;
+    gap: 10px;
+    padding: 8px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PagesCount {
+    display: flex;
+    align-items: center;
+    color: rgba(4, 21, 38, 0.50);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    gap: 10px;
+    margin-left: 20px;
+}

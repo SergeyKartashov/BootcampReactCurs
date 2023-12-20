@@ -1,0 +1,93 @@
+.PageContainer {
+    display: flex;
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+}
+
+.Sidebar {
+    display: flex;
+    margin: 8px 0 8px 8px;
+    width: 100%;
+    height: 100%;
+    min-width: 74px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #1173DA 0%, #A4E2FF 100%);
+}
+
+.SidebarEx {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 380px;
+    /*min-height: 884px;*/
+    background: linear-gradient(180deg, #1173DA 0%, #A4E2FF 100%);
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.MainMenuContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /*min-height: 892px;*/
+    padding-top: 24px;
+    gap: 20px;
+}
+
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 74px;
+    min-height: 884px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 12px;
+}
+
+.MainMenuFind {
+    display: flex;
+}
+
+.visible {
+    display: block;
+}
+
+.not_visible {
+    display: none;
+}
+
+.MainMenuItemContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.MenuDetails {
+    display: flex;
+}
+
+.FindClose {
+    display: flex;
+    margin-left: -25px;
+}
+
+.MenuIcon {
+    display: flex;
+    padding-right: 10px;
+}
+
+.MarkedIcon {
+    display: flex;
+    margin-left: 10px;
+}
+
+.DetailWrapper {
+    display: flex;
+    margin-bottom: 10px;
+}

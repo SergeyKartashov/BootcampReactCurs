@@ -1,0 +1,119 @@
+.SectionLeftContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    /*max-height: 800px;*/
+    border-radius: 14px;
+    background: #F6F8FA;
+    margin: 24px;
+}
+
+.ItemWrapper {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;
+    width: 100%;
+    height: 100%;
+    min-width: 280px;*/
+}
+
+
+.ProductItemContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.ProductItem {
+    display: flex;
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    padding-left: 24px;
+}
+
+.ProductItemLabel {
+    display: flex;
+    color: #041526;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    padding-left: 10px;
+}
+
+.ProductItemNord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*width: 100%;
+    height: 100%;*/
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 6px;
+    background-color: rgba(4, 21, 38, 0.05);
+}
+
+.ProductItemNordText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #041526;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.ItemDelimShort {
+    display: flex;
+    margin-left: 43px;
+    margin-top: 2%;
+    width: 2px;
+    height: 8px;
+    border-radius: 2px;
+    opacity: 0.1;
+    background: #041526;
+}
+
+.ItemDelimLong {
+    display: flex;
+    margin-left: 43px;
+    margin-top: 2%;
+    /*margin-top: 10px;*/
+    width: 2px;
+    height: 300px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #1173DA 0%, #A4E2FF 100%);
+}
+
+.ItemOpened {
+    display: flex;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.visible {
+    display: block;
+}
+
+.not_visible {
+    display: none;
+}
+
+.ItemDetailsContainer {
+    display: flex;
+}
+
+.ItemDetails {
+    display: flex;
+    margin-left: 10px;
+    padding-right: 10px;
+}
