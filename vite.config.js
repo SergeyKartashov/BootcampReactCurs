@@ -13,5 +13,11 @@ export default defineConfig({
       '@utils': path.resolve(__dirname, 'src/utils'),
     },
   },
-  base: '/BootcampReactCurs'
+  babel: {
+    presets: [
+      '@babel/preset-env',
+      '@babel/preset-react'
+    ],
+  },
+  base: './BootcampReactCurs/'
 })
